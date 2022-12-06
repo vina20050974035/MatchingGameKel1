@@ -1,0 +1,581 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1669460309681019, "dur": 3890640, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669460309681090, "dur": 2774, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669460309683868, "dur": 56878, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669460309740748, "dur": 745944, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669460310486696, "dur": 3071233, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669460313557932, "dur": 13721, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669460313572083, "dur": 16, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1669460309932352, "dur": 496539, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669460309936376, "dur": 198651, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669460310355040, "dur": 18732, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669460310373779, "dur": 55078, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669460310377163, "dur": 50098, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669460310448203, "dur": 7136, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669460310443863, "dur": 11664, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669460313572196, "dur": 224, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669460310622050, "dur":2737, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460310624809, "dur":322, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669460310625265, "dur":69, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669460310625335, "dur":1409, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669460310626837, "dur":2161, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460310628998, "dur":5, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539018, "dur":403, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539422, "dur":82, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539505, "dur":64, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539570, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539588, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539591, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539597, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539598, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539606, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539607, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539613, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539615, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539621, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539622, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539628, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539630, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539639, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539641, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539651, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539653, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539658, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539659, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539665, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539666, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539671, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539698, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313539821, "dur":1720, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669460310627165, "dur":1895, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460310629069, "dur":6213, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460310635320, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669460310635362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460310636222, "dur":521, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669460310636754, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669460310636815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460310637342, "dur":54668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669460310692019, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460310692085, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460310692106, "dur":218874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460310911015, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460310911050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460310911065, "dur":203045, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460311114146, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460311114189, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460311114208, "dur":574936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460311689217, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460311689289, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460311689318, "dur":93868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460311783237, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460311783301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460311783320, "dur":150473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460311933834, "dur":120723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460312054568, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460312054590, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460312056064, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460312056107, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460312056123, "dur":253389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460312309555, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460312309611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669460312309629, "dur":686977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669460312996671, "dur":542457, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460310627619, "dur":1521, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460310629141, "dur":6223, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460310635365, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669460310635524, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460310639373, "dur":8911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1669460310648341, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1669460310648415, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460310648437, "dur":6530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":2, "ts":1669460310655137, "dur":130, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1669460310655281, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460310656064, "dur":252030, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1669460310908188, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460310908281, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460310908304, "dur":143002, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311051350, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311051395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460311051413, "dur":345869, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311397316, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311397357, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460311397370, "dur":98627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311496046, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311496094, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460311496116, "dur":149692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311645846, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311645890, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460311645910, "dur":151413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311797364, "dur":163510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311960935, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460311960957, "dur":1825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311962825, "dur":1606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311964441, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460311964460, "dur":1428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311965923, "dur":1601, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311967534, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460311967554, "dur":1330, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460311968923, "dur":67372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460312036306, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460312036327, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460312037805, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460312037871, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669460312037886, "dur":1034039, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669460313071958, "dur":467273, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460310627400, "dur":1713, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460310629114, "dur":6260, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460310635375, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669460310635562, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460310639417, "dur":8417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1669460310647900, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669460310647981, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460310648058, "dur":33767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669460310681878, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460310681942, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460310681958, "dur":283384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460310965390, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460310965452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460310965476, "dur":226906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311192417, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311192456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460311192474, "dur":204740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311397258, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311397311, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460311397337, "dur":135212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311532588, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311532629, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460311532690, "dur":120280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311653018, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311653079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460311653102, "dur":129911, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311783057, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460311783102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460311783121, "dur":406758, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460312189920, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460312189966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460312189985, "dur":103356, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460312293404, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460312293471, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669460312293505, "dur":761240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669460313054776, "dur":484451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460310627835, "dur":1322, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460310629158, "dur":6142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460310635316, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669460310635566, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460310640798, "dur":7676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669460310648538, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460310648639, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460310652506, "dur":41160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460310693721, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460310693769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460310693786, "dur":494401, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311188235, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311188286, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460311188314, "dur":312370, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311500742, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311500805, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460311500825, "dur":99635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311600540, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311600613, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460311600653, "dur":120515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311721206, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311721245, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460311721264, "dur":187994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311909300, "dur":2357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311911669, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460311911691, "dur":1432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460311913158, "dur":146940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460312060111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312060133, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460312061974, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460312062013, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312062029, "dur":418768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460312480839, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460312480911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312480927, "dur":426159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669460312907250, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669460312907324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312907493, "dur":6182, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669460312913755, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669460312913827, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312913860, "dur":4256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1669460312918203, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669460312918256, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312918278, "dur":1609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level4.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669460312919923, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1669460312919963, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312919979, "dur":3775, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level4" }}
+,{ "pid":12345, "tid":4, "ts":1669460312923798, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669460312923845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312923865, "dur":1749, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669460312925661, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1669460312925702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312925713, "dur":3402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level3" }}
+,{ "pid":12345, "tid":4, "ts":1669460312929148, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669460312929191, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312929203, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level1.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669460312930880, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1669460312930920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312930933, "dur":1753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level1" }}
+,{ "pid":12345, "tid":4, "ts":1669460312932718, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669460312932759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312932770, "dur":1559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":4, "ts":1669460312934360, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1669460312934599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669460312934613, "dur":1210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1669460312935855, "dur":603265, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460310628071, "dur":1093, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460310629165, "dur":6125, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460310635321, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1669460310635548, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460310640480, "dur":6919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1669460310647509, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669460310647602, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460310647820, "dur":28903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669460310676813, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460310676897, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460310677010, "dur":234241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460310911286, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460310911326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460310911342, "dur":122360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460311033750, "dur":694389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460311728155, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460311728185, "dur":1900, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460311730119, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460311730160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460311730217, "dur":68579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460311798836, "dur":418725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460312217584, "dur":31, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460312217645, "dur":2084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460312219770, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460312219814, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460312219831, "dur":152043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460312371911, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460312371950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460312371970, "dur":211576, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460312583588, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460312583638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460312583654, "dur":194890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460312778596, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460312778646, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669460312778668, "dur":624480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669460313403179, "dur":135825, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460310628303, "dur":881, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460310629185, "dur":6120, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460310635321, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669460310635572, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460310641448, "dur":6015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669460310647589, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669460310647705, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460310648024, "dur":32744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669460310680827, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460310680950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460310680975, "dur":229993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460310911007, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460310911050, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460310911065, "dur":156739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460311068037, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460311068232, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460311068314, "dur":374154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460311442514, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460311442570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460311442591, "dur":96274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460311538909, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460311538956, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460311538975, "dur":136965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460311675980, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460311676023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460311676041, "dur":479599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460312155682, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460312155728, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460312155748, "dur":345323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460312501110, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460312501157, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669460312501176, "dur":517777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669460313019019, "dur":520158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460310628554, "dur":700, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460310629255, "dur":6031, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460310635315, "dur":327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1669460310635649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460310643355, "dur":3373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":7, "ts":1669460310646795, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669460310646872, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460310648356, "dur":18093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669460310666573, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460310666704, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460310668228, "dur":244942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460310913242, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460310913287, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460310913303, "dur":112140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460311025488, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460311025533, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460311025569, "dur":545824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460311571434, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460311571479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460311571498, "dur":65177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460311636722, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460311636769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460311636788, "dur":231732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460311868559, "dur":214172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460312082743, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312082768, "dur":2848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460312085662, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460312085709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312085731, "dur":760424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669460312846197, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1669460312846440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312846758, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":7, "ts":1669460312848154, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1669460312848199, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312848245, "dur":1788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1669460312850069, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669460312850110, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312850125, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669460312851323, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669460312851358, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312851371, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669460312852938, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669460312852976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312852990, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":7, "ts":1669460312854158, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1669460312854197, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312854212, "dur":74892, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1669460312929141, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1669460312929181, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312929200, "dur":3200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1669460312932433, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1669460312932470, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669460312932482, "dur":7993, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level0" }}
+,{ "pid":12345, "tid":7, "ts":1669460312940518, "dur":598607, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460310628816, "dur":472, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460310629288, "dur":6033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460310635322, "dur":268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669460310635604, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460310641993, "dur":5811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669460310647879, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669460310648012, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460310648039, "dur":33835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1669460310682009, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460310682076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460310682091, "dur":228846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460310910974, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460310911015, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460310911031, "dur":263529, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311174609, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311174935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460311175018, "dur":175106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311350163, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311350206, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460311350268, "dur":86509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311436816, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311436860, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460311436927, "dur":261087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311698058, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311698116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460311698135, "dur":87380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311785607, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311785731, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460311785760, "dur":84155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460311869952, "dur":1010158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460312880126, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460312880207, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669460312882402, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669460312882445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460312882459, "dur":1343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669460312883834, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669460312883876, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460312883890, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1669460312888611, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669460312888654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460312888669, "dur":1766, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1669460312890472, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1669460312890724, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460312890740, "dur":3887, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":8, "ts":1669460312894730, "dur":42579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1669460312937318, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669460312937429, "dur":3914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1669460312941451, "dur":597679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460310629099, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460310629102, "dur":6277, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460310635380, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1669460310635498, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460310639285, "dur":9055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1669460310648413, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460310648492, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460310649465, "dur":23227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460310672753, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460310672808, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460310672869, "dur":249878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460310922786, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460310922902, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460310922921, "dur":424473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460311347438, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460311347481, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460311347501, "dur":182134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460311529688, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460311529756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460311529777, "dur":99560, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460311629378, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460311629420, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460311629437, "dur":86845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460311716324, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460311716539, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460311716559, "dur":107326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460311823951, "dur":314863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460312138826, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460312138855, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460312141136, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460312141181, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460312141199, "dur":339415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460312480656, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460312480704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669460312480771, "dur":548611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669460313029424, "dur":509792, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460310629348, "dur":2, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460310629350, "dur":5945, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460310635318, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1669460310635617, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460310642443, "dur":6601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":10, "ts":1669460310649111, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1669460310649200, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460310649218, "dur":18193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1669460310667458, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460310667515, "dur":10, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460310667650, "dur":243072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460310910758, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460310910802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460310910818, "dur":131123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311042018, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311042071, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460311042090, "dur":186907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311229067, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311229121, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460311229143, "dur":176496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311405678, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311405732, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460311405750, "dur":148513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311554314, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311554357, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460311554375, "dur":86757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311641178, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311641228, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460311641251, "dur":98141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311739429, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311739469, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460311739486, "dur":173818, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311913339, "dur":32495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311945858, "dur":14, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460311945903, "dur":1569, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311947509, "dur":7307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311954828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460311954856, "dur":1787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460311956680, "dur":228071, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460312184779, "dur":12, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460312184830, "dur":7768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460312192634, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460312192676, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460312192744, "dur":390374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460312583160, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460312583215, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669460312583235, "dur":460533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669460313043799, "dur":495434, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460310629572, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460310629574, "dur":5744, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460310635321, "dur":181, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1669460310635516, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460310640287, "dur":8493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1669460310648844, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460310649390, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460310649409, "dur":262517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460310912072, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460310912124, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460310912140, "dur":494748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460311406933, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460311406974, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460311406991, "dur":134071, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460311541124, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460311541169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460311541187, "dur":452187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460311993411, "dur":6555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460311999978, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460312000000, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460312001359, "dur":118924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460312120378, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460312120420, "dur":1449, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460312121903, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460312121941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460312121956, "dur":648541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460312770536, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460312770581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669460312770600, "dur":768217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669460313538890, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1669460313538901, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460310629803, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460310629804, "dur":5504, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460310635319, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1669460310635496, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460310638996, "dur":8509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1669460310647949, "dur":743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1669460310648704, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460310648732, "dur":3824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":12, "ts":1669460310652703, "dur":15989, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME.exe" }}
+,{ "pid":12345, "tid":12, "ts":1669460310668702, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460310668722, "dur":14620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME.exe" }}
+,{ "pid":12345, "tid":12, "ts":1669460310685583, "dur":95, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460310687458, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460310687495, "dur":223696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460310911235, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460310911324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460310911342, "dur":224656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311136036, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311136083, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460311136111, "dur":153551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311289709, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311289818, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460311289865, "dur":111294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311401214, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311401273, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460311401297, "dur":87402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311488750, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311488803, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460311488827, "dur":173355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311662217, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311662258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460311662282, "dur":61728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311724067, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311724124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460311724146, "dur":103564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311827750, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460311827845, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460311827866, "dur":177840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460312005761, "dur":1537, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460312007308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460312007327, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460312008687, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460312008799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460312008818, "dur":267404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460312276262, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460312276317, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460312276337, "dur":546562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460312822951, "dur":101919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460312924881, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460312924901, "dur":4192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669460312929135, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1669460312929179, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460312929200, "dur":1794, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level2.resS" }}
+,{ "pid":12345, "tid":12, "ts":1669460312931029, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1669460312931068, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460312931078, "dur":1565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/level0.resS" }}
+,{ "pid":12345, "tid":12, "ts":1669460312932676, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1669460312932713, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669460312932725, "dur":1940, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/SEMESTER 5/PEMROGRAMAN GAME/MEMORY GAME/MEMORY GAME_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":12, "ts":1669460312934700, "dur":604300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669460313543628, "dur":4545, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1669460313572492, "dur": 1067, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669460313572067, "dur": 1515, "ph": "X", "name": "Write chrome-trace events", "args": {} },
